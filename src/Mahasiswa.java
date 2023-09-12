@@ -33,6 +33,10 @@ public class Mahasiswa {
     public String getNama() {
         return Nama;
     }
+    
+    public String getAlamat() {
+        return Alamat;
+    }
 
     public void setNama(String Nama) {
         this.Nama = Nama;
@@ -41,8 +45,12 @@ public class Mahasiswa {
     public void setNIM(String NIM) {
         this.NIM = NIM;
     }
+    
+    public void setAlamat(String Alamat) {
+        this.Alamat = Alamat;
+    }
 
     void cetakInformasi() {
-        System.out.print("NIM mahasiswa " + NIM + " adalah " + Nama);
+        System.out.print("NIM mahasiswa " + NIM + " adalah " + Nama + " beralamat " + Alamat);
     }
 }
