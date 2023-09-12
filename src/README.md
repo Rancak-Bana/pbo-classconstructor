@@ -5,10 +5,7 @@ State jumlah 5 :
 - Alamat (String): menyimpan alamat mahasiswa.
 - umur (int): menyimpan umur mahasiswa.
 - Jurusan (String): menyimpan jurusan mahasiswa.
-Behavior jumlah 8 :
-- Mahasiswa(String Nama, String NIM): constructor untuk inisialisasi objek Mahasiswa dengan nama dan NIM.
-- Mahasiswa(String Nama, String NIM, String Alamat): constructor untuk inisialisasi objek Mahasiswa dengan nama, NIM, dan alamat.
-- Mahasiswa(String Nama, String NIM, String Alamat, int umur, String Jurusan): constructor untuk inisialisasi objek Mahasiswa dengan semua atribut yang ada.
+Behavior jumlah 5 (constructor bukan termasuk behaviour) :
 - getNIM(): metode untuk mengembalikan nilai NIM mahasiswa.
 - getNama(): metode untuk mengembalikan nilai nama mahasiswa.
 - setNama(String Nama): metode untuk mengubah nilai nama mahasiswa.
