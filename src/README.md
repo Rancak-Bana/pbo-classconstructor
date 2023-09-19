@@ -95,8 +95,6 @@ public class Televisi {
 
 Dari percobaan di atas, dapat disimpulkan:
 - Class: Terdapat dua class dalam contoh tersebut, yaitu class Main dan class Televisi. Class Main digunakan sebagai entry point untuk menjalankan program dan mengatur penggunaan objek Televisi. Class Televisi merupakan kelas yang mewakili objek televisi.
-- Objek: Dalam contoh tersebut, objek yang digunakan adalah objek Televisi. Objek Televisi digunakan untuk merepresentasikan sebuah televisi dengan merek dan harga tertentu, serta memiliki fungsi untuk menghidupkan atau mematikan televisi, mengatur channel, dan memberikan informasi tentang televisi.
-- Penyusun Class terdiri atas:
-    - Main class: Class yang berfungsi sebagai entry point program, menjalankan logika utama program.
-    - Televisi class: Class yang merepresentasikan objek televisi dengan atribut-atribut dan fungsi-fungsi yang berkaitan dengan televisi. Class ini merupakan penyusun utama untuk objek Televisi dan berisi konstruktor, method informasiTv(), hidupkanTv(), matikanTv(), setChannel(), dan getChannel().
+- Objek: tvFlat
+- Penyusun Class terdiri atas: merek, harga, hidup, channel, konstruktor, prosedur informasiTv(), hidupkanTv(), matikanTv(), setChannel(), dan getChannel().
 
