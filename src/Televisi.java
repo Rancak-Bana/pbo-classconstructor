@@ -1,6 +1,6 @@
 public class Televisi {
-    private final String merek;
-    private final String harga;
+    private String merek;
+    private String harga;
     private boolean hidup;
     private int channel;
 
